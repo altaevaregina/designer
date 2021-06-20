@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    --css-variable: #000;
+}
+
+.diva {
+    color: var(--css-variable);
+}
+
+// .container {
+//     margin-top: 50%;
+//     padding-bottom: 5px;
+//     display: flex;
+//     .left-side {
+//         display: flex;
+//     }
+//     .right-side {
+//         display: flex;
+//         .first-column {
+//             display: flex;
+//         }
+//     }
+// }
